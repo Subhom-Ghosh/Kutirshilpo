@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kutir Shilpo – Handicrafts of Bengal</title>
+    <link rel="stylesheet" href="kutirshilpo.css">
+</head>
+<body>
+    <header>
+        <h1>Kutir Shilpo – Handmade Treasures of Bengal</h1>
+    </header>
+
+    <!-- Filter Section -->
+    <section class="filters">
+        <select id="materialFilter">
+            <option value="">All Materials</option>
+            <option value="metal">Metal</option>
+            <option value="fabric">Fabric</option>
+            <option value="reed">Reed</option>
+        </select>
+
+        <select id="purposeFilter">
+            <option value="">All Purposes</option>
+            <option value="decor">Home Decor</option>
+            <option value="gift">Gift</option>
+            <option value="festival">Festival Use</option>
+        </select>
+
+        <select id="budgetFilter">
+            <option value="">Any Budget</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+
+        <select id="regionFilter">
+            <option value="">All Regions</option>
+            <option value="Bankura">Bankura</option>
+            <option value="Birbhum">Birbhum</option>
+            <option value="Midnapore">Midnapore</option>
+        </select>
+    </section>
+
+    <!-- Card Section -->
+    <section class="cards" id="craftCards">
+        <!-- Cards will be loaded here dynamically -->
+    </section>
+
+    <!-- Popup Modal -->
+    <div id="craftModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+            <a id="buyLink" href="#" target="_blank" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+
+    <script src="kutirshilpo.js"></script>
+</body>
+</html>
