@@ -15,7 +15,7 @@ const crafts = [
         budget: "Low",
         purpose: ["gift", "decor"],
         region: "Birbhum",
-        image: "images/kantha.avif",
+        image: "https://i.pinimg.com/736x/b2/47/21/b24721be4da0945c73b57c1ac57c08c0.jpg",
         description: "A traditional form of hand embroidery, famous in Birbhum and Murshidabad, often used for quilts, sarees and stoles.",
         buyLink: "https://www.example.com/kantha"
     },
@@ -25,7 +25,7 @@ const crafts = [
         budget: "Low",
         purpose: ["decor", "festival"],
         region: "Midnapore",
-        image: "images/madur.jpeg",
+        image: "https://www.getbengal.com/ckeditor/userfiles/1579172918-madur_sabong-2.jpg",
         description: "These mats are woven from Madur kathi reeds, typically grown in the Midnapore region. Comfortable, eco-friendly and decorative.",
         buyLink: "https://www.example.com/madur"
     },
@@ -35,7 +35,7 @@ const crafts = [
         budget: "Low to Medium",
         purpose: ["decor", "utility", "religious idols"],
         region: "Across India",
-        image: "images/terracotta.jpeg",
+        image: "https://mybageecha.com/cdn/shop/products/elephant_decor_1.jpg?v=1713433937",
         description: "Terracotta is a centuries-old craft of creating pottery, sculptures, and decorative items from clay, fired at high temperatures for durability.",
         buyLink: "https://www.example.com/terracotta"
     },
@@ -45,7 +45,7 @@ const crafts = [
         budget: "Low to Medium",
         purpose: ["utility","decor"],
         region: "Cooch Behar",
-        image: "images/shitalpati.jpg",
+        image: "https://orumindicus.com/wp-content/uploads/2023/02/561.png",
         description: "ShitalPati is a traditional handicraft of weaving mats from green cane, famous for its cooling property and smooth texture.",
         buyLink: "https://www.example.com/shitalpati"
     },
@@ -55,7 +55,7 @@ const crafts = [
         budget: "High",
         purpose: ["apparel", "wedding", "festive wear"],
         region: "Bishnupur",
-        image: "images/baluchari.webp",
+        image: "https://livingloomsofindia.com/cdn/shop/files/PureSilkBlueBaluchariSareewithMythologicalFiguresandButiWork_2_5367a8cb-1a9b-4815-833d-3f91388e9722.jpg?v=1715600998&width=1440",
         description: "Baluchari sarees feature intricate mythological scenes woven into the pallu and border, symbolizing elegance and tradition.",
         buyLink: "https://www.example.com/baluchari-saree"
     },
@@ -65,7 +65,7 @@ const crafts = [
     budget: "Low to High",
     purpose: ["decor", "ritual use", "souvenirs"],
     region: ["Paschim Medinipur", "Purba Medinipur", "Bankura"],
-    image: "images/patachitra.webp",
+    image: "https://thebengalcraft.com/wp-content/uploads/2022/01/Pattachitra-Kalighat-Patachitra-Uttam-Chitrakar-06-1.jpeg",
     description: "Patachitra, which means 'cloth picture' in Sanskrit, is an ancient art of scroll painting. The paintings are known for their intricate details, vibrant colors derived from natural sources, and mythological narratives or folktales. Originally used for ritual purposes and as pilgrim souvenirs, the art form is a beautiful blend of traditional storytelling and painting.",
     buyLink: "https://www.example.com/patachitra"
 },
@@ -75,7 +75,7 @@ const crafts = [
     budget: "Low to Medium",
     purpose: ["apparel", "home decor", "art pieces"],
     region: "Birbhum, Hooghly, Howrah, Kolkata, Purba Medinipur",
-    image: "images/batik.jpg",
+    image: "https://anuprerna-bloomscorp.s3.ap-south-1.amazonaws.com/YHARVKP6QSSB1SP9139BZZAY127X00304.jpg",
     description: "Batik is an ancient wax-resist dyeing technique used to create intricate patterns on fabric. Molten wax is applied to the cloth to block out areas, and the fabric is then dyed. This process is repeated with different colors to create a layered and crackled effect. While the craft is popular across various parts of the country, it has a strong presence in several districts of West Bengal, particularly around Santiniketan.",
     buyLink: "https://www.example.com/batik"
 },
@@ -85,7 +85,7 @@ const crafts = [
     budget: ["Medium","High"],
     purpose: ["utility", "decor", "ritual use"],
     region: "Murshidabad, Nadia, Birbhum, Bankura, Paschim Medinipur, Purba Medinipur, Darjeeling",
-    image: "images/brass.jpg",
+    image: "https://static.wixstatic.com/media/a63792_2aecf3fc2c3e4005969f6e59ecf716be~mv2.jpg/v1/crop/x_1146,y_0,w_3984,h_3420/fill/w_272,h_232,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/golden-decorative-ramadan-concept.jpg",
     description: "Brass and bell metal crafts are traditional metalworks known for their durability and ornate designs. Artisans create utensils, lamps, ritual items, and decorative pieces using age-old casting and hammering techniques. These crafts are especially prominent in several districts of West Bengal, blending functionality with cultural heritage.",
     buyLink: "https://www.example.com/brass-bellmetal"
 },
@@ -95,7 +95,7 @@ const crafts = [
     budget: ["Low", "Medium"],
     purpose: ["utility", "decor", "furniture", "eco-friendly products"],
     region: ["Darjeeling", "Jalpaiguri", "Cooch Behar", "Uttar Dinajpur", "Dakshin Dinajpur", "Malda", "Murshidabad", "Purulia", "Bankura", "Paschim Medinipur", "Purba Medinipur", "North 24-Parganas"],
-    image: "images/bamboo.avif",
+    image: "https://img1.exportersindia.com/final_catg_image/82981-1.jpg",
     description: "Cane and bamboo crafts are eco-friendly and versatile, ranging from baskets and mats to furniture and decorative items. These crafts are deeply rooted in rural and tribal traditions across West Bengal, especially in forested and hilly regions. Artisans skillfully weave and shape the materials into durable, lightweight, and sustainable products.",
     buyLink: "https://www.example.com/cane-bamboo"
 },
@@ -105,7 +105,7 @@ const crafts = [
     budget: ["Low", "Medium"],
     purpose: ["decor", "ritual use", "educational", "souvenirs"],
     region: ["Nadia", "Murshidabad", "Kolkata"],
-    image: "images/doll.webp",
+    image: "https://bongoniketan.in/cdn/shop/files/HandcraftedvillagerClaymodelofwestbengal18.jpg?v=1707224847",
     description: "Clay doll modeling is a delicate and expressive craft involving hand-shaped figurines, often depicting rural life, deities, or mythological scenes. These dolls are painted with natural pigments and are cherished for their storytelling charm. Nadia and Murshidabad are especially known for their traditional styles, while Kolkata artisans blend heritage with contemporary themes.",
     buyLink: "https://www.example.com/clay-doll"
 },
@@ -115,7 +115,7 @@ const crafts = [
     budget: ["Low", "Medium"],
     purpose: ["utility", "decor", "eco-friendly products", "craft items"],
     region: ["Murshidabad", "Howrah", "Bankura"],
-    image: "images/coconut.webp",
+    image: "https://orumindicus.com/wp-content/uploads/2023/02/89.png",
     description: "Coconut shell and husk crafts transform natural waste into beautiful and functional items. Artisans carve shells into bowls, jewelry, and figurines, while husks are woven into ropes, mats, and brushes. These eco-conscious crafts are especially practiced in Murshidabad, Howrah, and Bankura, blending sustainability with rural creativity.",
     buyLink: "https://www.example.com/coconut-craft"
 },
@@ -125,7 +125,7 @@ const crafts = [
     budget: ["Medium", "High"],
     purpose: ["decor", "ritual use", "art panels"],
     region: ["Kolkata"],
-    image: "images/Copper Repoussé.jpg",
+    image: "https://www.zineart.in/images/MTR/MTR017004.webp",
     description: "Copper repoussé is a metalworking technique where artisans shape intricate designs by hammering from the reverse side. This craft is used to create ornate wall panels, religious motifs, and decorative items. In Kolkata, skilled metalworkers continue this tradition, blending classical themes with contemporary aesthetics.",
     buyLink: "https://www.example.com/copper-repousse"
 },
@@ -226,5 +226,6 @@ document.querySelectorAll(".filters select").forEach(select => {
 });
 
 displayCrafts(crafts);
+
 
 
