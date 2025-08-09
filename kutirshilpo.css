@@ -95,9 +95,11 @@ header {
 }
 
 .modal-content img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    max-width: 90%;
+    max-height: 50vh; /* restrict height to viewport */
+    object-fit: contain;
+    display: block;
+    margin: auto;
 }
 
 .close-btn {
