@@ -5,7 +5,7 @@ const crafts = [
         budget: "Medium",
         purpose: ["decor", "gift"],
         region: "Bankura",
-        image: "images/dokra.webp",
+        image: "https://i0.wp.com/utkalikaodisha.com/wp-content/uploads/2024/07/2.jpg?resize=600%2C600&ssl=1",
         description: "Ancient non-ferrous metal casting art made using the lost-wax casting technique, unique to Bankura and Dwariapur.",
         buyLink: "https://www.example.com/dokra"
     },
@@ -226,4 +226,5 @@ document.querySelectorAll(".filters select").forEach(select => {
 });
 
 displayCrafts(crafts);
+
 
